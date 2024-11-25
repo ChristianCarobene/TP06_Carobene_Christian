@@ -12,13 +12,9 @@ public class UIGameManager : MonoBehaviour
     [SerializeField] private GameObject settingsPanel;
     private bool isPaused = false;
     [Header("Scene Manager")]
-    [SerializeField] private string gameovertScene; 
-    [SerializeField] private string winScene;
-    [SerializeField] private SceneManagers sceneManagers;
-
-
-
-   
+    [SerializeField] public string gameovertScene; 
+    [SerializeField] public string winScene;
+    [SerializeField] public SceneManagers sceneManagers;
 
     private void Update()
     {
